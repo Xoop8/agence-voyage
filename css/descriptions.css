@@ -80,7 +80,7 @@ html,body{
 .logo{
   display:flex;
   margin-left: 40px;
-  margin-top: 15px;
+  margin-top: px;
   font-family: 'Great Vibes', cursive;
   font-size: 6vw;
   color: #ff4444;
@@ -111,8 +111,21 @@ p, ul {
 h3,h4,h5 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+h3 {
+  font-size: 2em;
+}
+
+h6 {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+
 section {
-  padding:10px;
+  padding-left: 10px;
+  padding-bottom: 15px;
 }
 #section-1 img {
   width: 100%;
