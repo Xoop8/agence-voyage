@@ -184,10 +184,14 @@ ul li{
     
 }
 
-
-a{
+a:visited{
+    text-decoration-color: none;
+}
+a:link{
     text-decoration: none;
-    color: black
+    list-style-type: none;
+    text-decoration-color: none;
+    color: none;
     
 }
 h3 {
@@ -200,17 +204,28 @@ h3 {
     left: 30px;
     
 }
+
 figcaption{
     font-family: 'Dancing Script', cursive;
-    font-size: 20px;
+    font-size: 22px;
+    color: rgb(45, 76, 97);
+    background-color: white;
+    box-shadow: 5px 4px 69px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    max-width: 130px;
+    max-height: 200px;
+    margin: auto;
+    margin-top: 1vh;
+ 
     
 }
 
 .Pays{
     font-style: italic;
     color: aliceblue;
-    font-size: 40px;
+    font-size: 42px;
     top: -55px;
+    
 }
 .Pays2{
     font-style: italic;
@@ -235,16 +250,13 @@ figcaption{
 .dream{
     display: flex;
     
+    
 }
 
 .dream .dream1 {
     position: absolute;
     animation: slide1 19s infinite;
-    box-shadow: 5px px 69px 0px rgba(0, 0, 0, 0.493);
-  
-    
 
-    
 }
 
 .dream .dream2{
@@ -257,6 +269,7 @@ figcaption{
 }
 .dream1{
     max-width: 450px;
+
 }
 .dream2 {
     max-width: 420px;
@@ -264,6 +277,7 @@ figcaption{
 .dream3 {
     max-width: 420px;
 }
+
 
 
 
