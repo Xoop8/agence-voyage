@@ -1,0 +1,160 @@
+
+.logo{
+    display:flex;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 6vw;
+    text-align: left;
+
+    
+
+}
+
+ul li{
+    display: none;
+    text-align: right;
+    font-family: 'Great Vibes', cursive;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 3vw;
+    
+}
+
+.burger{
+    display:flex;
+    position: absolute; 
+    right: 50px;
+    top: 20px;
+    
+}
+.search{
+    display:flex;
+    position: absolute; 
+    right: 10px;
+    top: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black
+    
+}
+h3 {
+    font-size: 14px;
+    display: flex;
+    position: relative;
+    top: -40px;
+    left: 30px;
+    
+}
+
+.head1{
+    position: relative;
+    display: flexbox;
+    top: 40px;
+    
+    
+
+}
+.dream{
+    display: flex;
+}
+
+.dream .dream1 {
+    position: absolute;
+    animation: slide1 19s infinite;
+    border: 3px #cccccc44 solid;
+    
+
+    
+}
+
+.dream .dream2{
+    animation: slide2 19s infinite;
+}
+@keyframes slide1 {
+    0% {
+        opacity: 0;
+        transform: translateX(150%);
+    }
+
+    2.25% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    33% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    35.25% {
+        opacity: 0;
+        transform: translateX(-150%);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-150%);
+    }
+}
+
+@keyframes slide2 {
+    0% {
+        opacity: 0;
+        transform: translateX(150%);
+    }
+
+    35.25% {
+        opacity: 0;
+        transform: translateX(150%);
+    }
+
+    37.5% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    66% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    68.25% {
+        opacity: 0;
+        transform: translateX(-90%);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-90%);
+    }
+}
+
+@keyframes slide3 {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    68.25% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    70.5% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    97.75% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}

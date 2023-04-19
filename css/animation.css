@@ -1,0 +1,86 @@
+
+@keyframes slide1 {
+    0% {
+        opacity: 0;
+        transform: translateX(150%);
+    }
+
+    2.25% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    33% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    35.25% {
+        opacity: 0;
+        transform: translateX(-150%);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-150%);
+    }
+}
+
+@keyframes slide2 {
+    0% {
+        opacity: 0;
+        transform: translateX(150%);
+    }
+
+    35.25% {
+        opacity: 0;
+        transform: translateX(150%);
+    }
+
+    37.5% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    66% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    68.25% {
+        opacity: 0;
+        transform: translateX(-90%);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-90%);
+    }
+}
+
+@keyframes slide3 {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    68.25% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    70.5% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    97.75% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
