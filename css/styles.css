@@ -36,12 +36,33 @@ a{
     
 }
 h3 {
-    font-size: 14px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-weight: 400;
     display: flex;
-    position: relative;
+    position: absolute;
     top: -40px;
     left: 30px;
     
+}
+
+.Pays{
+    font-style: italic;
+    color: aliceblue;
+    font-size: 40px;
+    top: -55px;
+}
+.Pays2{
+    font-style: italic;
+    color: aliceblue;
+    font-size: 44px;
+    top: -65px;
+}
+.Pays3{
+    font-style: italic;
+    color: aliceblue;
+    font-size: 44px;
+    top: -59px;
 }
 
 .head1{
@@ -122,6 +143,9 @@ input{
     flex-shrink: 1;
 }
 .box-form {
+    background-image: url(../images/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     top: 350px;
     flex-direction: row;
