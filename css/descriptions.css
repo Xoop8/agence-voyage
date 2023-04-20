@@ -158,12 +158,10 @@ body {
 }
 
 section {
-  padding: 10px;
-}
-
-#section-1 {
   padding: 1rem;
 }
+
+
 
 .bloc-info {
   display: grid;
@@ -239,7 +237,7 @@ section {
 }
 
 #section-2 {
-  
+
 }
 
 
