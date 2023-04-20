@@ -5,41 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/descriptions.css">
-    
+    <link rel="stylesheet" href="./css/descriptions.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-      <header>
+    <header>
       <div class="logo">
-  
-        <h4 class="logo3"> <b><span>Flight</span> <span> Of</span> <span>Dreams</span></b></h4> 
-  
-          <ul>
-              <li> <a href="">Nos Destinations</a></li>
-              <li> <a href="">Les Bon Plans</a></li>
-              <li><a href="">Nous contacter</a></li>
-              <li class="burger"> <img src="./images/burger_icon.svg" alt="menu"> </li>
-              
-          </ul>
-  
+        <h4 class="logo3">
+          <b><span>Flight</span> <span> Of</span> <span>Dreams</span></b>
+        </h4>
+
+        <ul>
+          <li><a href="">Nos Destinations</a></li>
+          <li><a href="">Les Bon Plans</a></li>
+          <li><a href="">Nous contacter</a></li>
+          <li class="burger">
+            <img src="./images/burger_icon.svg" alt="menu" />
+          </li>
+        </ul>
       </div>
-  
-  </header>
+    </header>
     <section id="section-1">
-      <img src="./images/page_seychelles.webp" alt="plage seychelles" />
+      <div class="slider-wrapper">
+        <div class="slider">
+          <img id="slide-1" src="./images/page_seychelles.webp"  />
+          <img id="slide-2" src="./images/img-seychelles2.webp" />
+          <img id="slide-3" src="./images/img-seychelles3.webp" />
+          <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+          </div>
+        </div>
+      </div>
       <div class="bloc-info">
         <h3>Hôtel Berjaya Beau Vallon</h3>
-        <h6>Vous allez adorer</h6>
+        <h6>Vous allez adorer:</h6>
         <ul>
           <li>Accès direct à la belle plage de Beau Vallon</li>
           <li>Nombreuses activités nautiques sur la plage</li>
           <li>Large choix culinaire parmi 5 restaurants</li>
         </ul>
+        <button name="reserver">Réserver</button>
+        <p>À partir de 1172€/personnes</p>
       </div>
     </section>
     <section id="section-2">
       <div class="bloc-garantie">
-        <h4>Découvrez notre Garantie Total Dreams</h4>
+        <h4 class="h4">Découvrez notre Garantie Total Dreams</h4>
         <h6>La garantie Premium la plus complète du marché.</h6>
         <ul>
           <li>
@@ -55,7 +75,7 @@
     </section>
     <section id="section-3">
       <div class="description">
-        <h4>Description:</h4>
+        <h4 class="h4">Description:</h4>
         <p>
           Les Seychelles sont un archipel de 115 îles situé au cœur de l'océan
           Indien, connu pour ses plages de sable blanc immaculé, ses eaux
@@ -71,7 +91,7 @@
         </p>
       </div>
       <div class="logement">
-        <h4>Logement:</h4>
+        <h4 class="h4">Logement:</h4>
         <p>
           L'hôtel compte 232 chambres.<br />
 
@@ -91,29 +111,32 @@
     </section>
     <section id="section-4">
       <div class="avis">
-        <h4><img src="./images/tripAdvisor.svg" alt="logo-tripAdvisor" />Avis Tripadvisor: Berjaya Beau Vallon</h4>
+        <h4 class="h4">
+          <img src="./images/tripAdvisor.svg" alt="logo-tripAdvisor" />Avis
+          Tripadvisor: Berjaya Beau Vallon
+        </h4>
         <div class="avis-1">
-          <h5>John : ★★★★★</h5>
+          <h5>John : <span class="star">★★★★★</span></h5>
           <p>
-            J'ai passé une semaine incroyable à l'hôtel Paradise Cove aux
-            Seychelles. Tout était absolument parfait, de l'accueil chaleureux
-            du personnel à la vue imprenable depuis ma chambre surplombant
-            l'océan. La nourriture était délicieuse et variée, avec des options
-            pour tous les goûts, et les cocktails au bar de la piscine étaient
-            tout simplement délicieux. L'hôtel était très bien entretenu et
-            propre, avec des jardins luxuriants et une plage privée immaculée.
-            Le service était exceptionnel, avec le personnel toujours prêt à
-            vous aider et à vous faire sentir chez vous. Je recommande vivement
-            cet hôtel à quiconque cherche un séjour paisible et relaxant dans un
+            J'ai passé une semaine incroyable à l'hôtel Berjaya aux Seychelles.
+            Tout était absolument parfait, de l'accueil chaleureux du personnel
+            à la vue imprenable depuis ma chambre surplombant l'océan. La
+            nourriture était délicieuse et variée, avec des options pour tous
+            les goûts, et les cocktails au bar de la piscine étaient tout
+            simplement délicieux. L'hôtel était très bien entretenu et propre,
+            avec des jardins luxuriants et une plage privée immaculée. Le
+            service était exceptionnel, avec le personnel toujours prêt à vous
+            aider et à vous faire sentir chez vous. Je recommande vivement cet
+            hôtel à quiconque cherche un séjour paisible et relaxant dans un
             cadre tropical de rêve.
           </p>
         </div>
         <div class="avis-2">
-          <h5>Emma : ★★☆☆☆</h5>
+          <h5>Emma : <span class="star">★★☆☆☆</span></h5>
           <p>
-            Je suis un peu déçu de mon séjour à l'hôtel Paradise Cove aux
-            Seychelles. Bien que l'emplacement soit magnifique, avec une plage
-            privée de sable blanc, j'ai trouvé que l'hôtel manquait de charme et
+            Je suis un peu déçu de mon séjour à l'hôtel Berjaya aux Seychelles.
+            Bien que l'emplacement soit magnifique, avec une plage privée de
+            sable blanc, j'ai trouvé que l'hôtel manquait de charme et
             d'ambiance. Ma chambre était correcte, mais pas très spacieuse, et
             la décoration était un peu démodée. Le service était également
             inégal, avec quelques membres du personnel très aimables et
