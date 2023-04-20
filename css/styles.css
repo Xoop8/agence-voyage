@@ -379,7 +379,7 @@ input{
 
 h2 {
     position: relative;
-    top: 130%;
+    top: 30%;
     left: 70px;
     font-family: 'Dancing Script', cursive;
     font-weight: 400;
@@ -517,7 +517,7 @@ th{
     height: 300px;
     position: absolute;
     left: 0%;
-    top: 180%;
+    top: 50%;
     margin-left: -150px;
     margin-top: -150px;
   }
