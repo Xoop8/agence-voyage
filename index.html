@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/animation.css">
     <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
 </head>
 <body>
     <header>
@@ -40,7 +41,7 @@
                     <h3 class="Pays">  Seychelles </h3>
                 </div>
                 <figure><img src="./images/seychelles.jpg" width="100%">
-                    <figcaption><a href="./seychelles.html"> Voir Description</a> </figcaption>
+                    <figcaption> <a href="./seychelles.html"class="voyage" >Découvrire l'offre</a> </figcaption>
                 </figure>
             
     
@@ -52,8 +53,8 @@
     
                     <h3 class="Pays2">  Bali </h3>
                 </div>
-                <figure><img src="./images/bali.jpg" width="100%" alt="">
-                    <figcaption>  Voir Description </figcaption>
+                <figure><img src="./images/bali2.jpg" width="100%" alt="">
+                    <figcaption>  Découvrire l'offre </figcaption>
     
                 </figure>
     
@@ -65,7 +66,7 @@
                     <h3 class="Pays3">  Canaries</h3>
                 </div>
                 <figure><img src="./images/canaries2.jpg" width="100%" alt="">
-                    <figcaption>Voir Description </figcaption>
+                    <figcaption>Découvrire l'offre</figcaption>
     
                 </figure>
             </div>
@@ -89,7 +90,7 @@
             <form action="" method="get" class="form-example">
 
                 <div class="boxe2">
-
+                        <div class="vol">Séjour</div>
                     <div class="champs">
                         <label for="Destinations">&nbsp; Destinations</label>
                         <input type="text" placeholder="Destinations (Pays,Ville,Region)" name="message" id="message">
@@ -117,13 +118,52 @@
 <section3>
 
     <h2> Destinations Promo</h2>
-        <div class="tableau">
-
+    
+    
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./images/espagne.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/bali.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+            </div>
         </div>
-
-
-
+        <div class="swiper-pagination"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "cube",
+            grabCursor: true,
+            cubeEffect: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
 </section3>
+
+<footer>
+  
+
+    
+        
+    
+
+</footer>
 
 </body>
 </html>
