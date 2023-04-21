@@ -124,21 +124,31 @@ header ul li {
 
 
 }
-
+body {
+  background-color: bisque;
+}
 p,
 ul {
-  font-size: 1em;
+  font-size: 1rem;
+  line-height: 1.5em;
+  font-family: 'Ysabeau', sans-serif;
+  font-weight: ;
 }
 
-.h4,
+
 h5,
 h6 {
   margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
 }
-
+.h4 {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
 h3 {
   font-family: 'dancing script';
-  color: antiquewhite;
+  color:cadetblue;
   margin: 10px;
   font-size: 2em;
 }
@@ -153,9 +163,6 @@ h6 {
   margin-top: 30px;
 }
 
-body {
-  background-color: teal;
-}
 
 section {
   padding: 1rem;
@@ -165,17 +172,20 @@ section {
 
 .bloc-info {
   display: grid;
-  background-color: turquoise;
+  background-color:ghostwhite;
   padding-top: 10px;
-  padding-bottom: 10px
+  padding-bottom: 10px;
+  border-radius: 1em;
+  margin-top:15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #section-1 button {
   justify-self: center;
-  height: 3em;
+  height: 2.8em;
   width: 6em;
-  border-radius: 15%;
-  background-color: blanchedalmond;
+  border-radius: 10%;
+  background-color:beige;
   box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, .2);
   margin-top: 15px;
 }
@@ -183,12 +193,16 @@ section {
 #section-1 h6 {
   margin: 10px;
 }
-
+h6 strong {
+  font-family: fantasy;
+  font-weight: 150;
+  color:cadetblue;
+}
 #section-1 p {
   justify-self: center;
   font-family: "great vibes";
   font-weight: 1000;
-  color: rgb(233, 225, 214);
+  color:cadetblue;
   font-size: 1.3em;
 }
 
@@ -201,10 +215,10 @@ section {
 .slider {
   display: flex;
   aspect-ratio: 16 / 9;
-  overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   border-radius: 0.5rem;
+  overflow-x: auto;
 }
 
 .slider img {
@@ -236,13 +250,61 @@ section {
   opacity: 1;
 }
 
-#section-2 {
-
+.bloc-garantie {
+  background-color:paleturquoise;
+  padding:10px;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+#dreams {
+  font: 20 3vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+  animation: blink linear infinite 2s;
+}
 
+.description {
+  background-color: ghostwhite;
+  padding:10px;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 30px;
+}
+.logement {
+  background-color: ghostwhite;
+  padding:10px;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
-
+#section-4 {
+  background-color: teal;
+  margin: 15px;
+  padding:10px;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-bottom: 2em;
+}
 .star {
   color: yellow;
+  font-weight: 100;
+}
+.avis {
+  margin-top: 2em;
+}
+#section-4 h5 {
+  font-size: 1.2rem;
+}
+#avis-1 {
+  background-color:lightseagreen;
+  padding:5px;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#avis-2 {
+  background-color:lightseagreen;
+  padding:5px;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
