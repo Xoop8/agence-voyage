@@ -1,36 +1,46 @@
 @import url(//fonts.googleapis.com/css?family=Vibur);
-html,body{
-    margin: 0;
-  height:100%
+
+html,
+body {
+  margin: 0;
+  height: 100%
 }
+
 @keyframes blink {
   78% {
     color: inherit;
     text-shadow: inherit;
   }
-  79%{
-     color: #333;
+
+  79% {
+    color: #333;
   }
+
   80% {
-    
+
     text-shadow: none;
   }
+
   81% {
     color: inherit;
     text-shadow: inherit;
   }
+
   82% {
     color: #333;
     text-shadow: none;
   }
+
   83% {
     color: inherit;
     text-shadow: inherit;
   }
+
   92% {
     color: #333;
     text-shadow: none;
   }
+
   92.5% {
     color: inherit;
     text-shadow: inherit;
@@ -39,46 +49,55 @@ html,body{
 
 
 
-#btn-twtr{
-  clear:both;
-  color:#fff;
-  border:2px solid;
-  border-radius:3px;
-  text-align:center;
-  text-decoration:none;
-  display:block;
-  font-family:sans-serif;
-  font-size:14px;
-  width:13em;
-  padding:5px 10px;
-  font-weight:600;
-  position:absolute;
-  bottom:20px;
-  left:0;
-  right:0;
-  margin:0 auto;
-  background:rgba(0,0,0,0.2);
-  box-shadow:0 0 0px 3px rgba(0,0,0,0.2);
-  opacity:0.4
-}#btn-twtr:hover{color:#fff;opacity:1}
+#btn-twtr {
+  clear: both;
+  color: #fff;
+  border: 2px solid;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-family: sans-serif;
+  font-size: 14px;
+  width: 13em;
+  padding: 5px 10px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0px 3px rgba(0, 0, 0, 0.2);
+  opacity: 0.4
+}
 
-.logo3{
+#btn-twtr:hover {
+  color: #fff;
+  opacity: 1
+}
+
+.logo3 {
   position: absolute;
   top: -25px;
 }
-.logo3 b{
+
+.logo3 b {
   font: 20 3vh "Vibur";
   color: #fee;
   text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
 }
-.logo3 b span{
+
+.logo3 b span {
   animation: blink linear infinite 2s;
 }
-.logo3 b span:nth-of-type(2){
+
+.logo3 b span:nth-of-type(2) {
   animation: blink linear infinite 3s;
 }
-.logo{
-  display:flex;
+
+.logo {
+  display: flex;
   margin-left: 40px;
   margin-top: px;
   font-family: 'Great Vibes', cursive;
@@ -86,34 +105,56 @@ html,body{
   color: #ff4444;
   text-align: left;
 }
-header ul li{
+
+header ul li {
   display: none;
   text-align: right;
   font-family: 'Great Vibes', cursive;
   text-decoration: none;
   list-style-type: none;
   font-size: 3vw;
-  
+
 }
-.burger{
-  display:flex;
-  position: absolute; 
+
+.burger {
+  display: flex;
+  position: absolute;
   right: 50px;
   top: 20px;
- 
-  
+
+
+}
+body {
+  background-color: bisque;
+}
+p,
+ul {
+  font-size: 1rem;
+  line-height: 1.5em;
+  font-family: 'Ysabeau', sans-serif;
+  font-weight: ;
 }
 
-p, ul {
-  font-size:1em;
-}
 
-h3,h4,h5 {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+h5,
+h6 {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
 }
-
+.h4 {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
 h3 {
+  font-family: 'dancing script';
+  color:cadetblue;
+  margin: 10px;
   font-size: 2em;
+}
+
+.h4 {
+  font-size: 1.4em;
 }
 
 h6 {
@@ -124,10 +165,146 @@ h6 {
 
 
 section {
-  padding-left: 10px;
-  padding-bottom: 15px;
+  padding: 1rem;
 }
-#section-1 img {
-  width: 100%;
-  padding:0px;
+
+
+
+.bloc-info {
+  display: grid;
+  background-color:ghostwhite;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 1em;
+  margin-top:15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#section-1 button {
+  justify-self: center;
+  height: 2.8em;
+  width: 6em;
+  border-radius: 10%;
+  background-color:beige;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, .2);
+  margin-top: 15px;
+}
+
+#section-1 h6 {
+  margin: 10px;
+}
+h6 strong {
+  font-family: fantasy;
+  font-weight: 150;
+  color:cadetblue;
+}
+#section-1 p {
+  justify-self: center;
+  font-family: "great vibes";
+  font-weight: 1000;
+  color:cadetblue;
+  font-size: 1.3em;
+}
+
+.slider-wrapper {
+  position: relative;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  aspect-ratio: 16 / 9;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.6;
+  transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+  opacity: 1;
+}
+
+.bloc-garantie {
+  background-color:paleturquoise;
+  padding:10px;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#dreams {
+  font: 20 3vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+  animation: blink linear infinite 2s;
+}
+
+.description {
+  background-color: ghostwhite;
+  padding:10px;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 30px;
+}
+.logement {
+  background-color: ghostwhite;
+  padding:10px;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#section-4 {
+  background-color: teal;
+  margin: 15px;
+  padding:10px;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-bottom: 2em;
+}
+.star {
+  color: yellow;
+  font-weight: 100;
+}
+.avis {
+  margin-top: 2em;
+}
+#section-4 h5 {
+  font-size: 1.2rem;
+}
+#avis-1 {
+  background-color:lightseagreen;
+  padding:5px;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#avis-2 {
+  background-color:lightseagreen;
+  padding:5px;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
