@@ -215,15 +215,15 @@ h4{
     }
 
     .voya .card{
-        animation: slider_1 6s 0s  infinite;
+        animation: slider_1 12s 0s  infinite;
     }
 
     .voya2 .card {
-        animation: slider_2 6s  0s   infinite;
+        animation: slider_2 12s  0s   infinite;
     }
 
     .voya3 .card{
-        animation: slider_3 6s  0s  infinite;
+        animation: slider_3 12s  0s  infinite;
     }
 
     @keyframes slider_1 {
@@ -303,7 +303,7 @@ h4{
         }
         100% {
             opacity: 0;
-             transform: translateX(0%);
+             transform: translateX(-300%);
     
             }
     
