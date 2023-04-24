@@ -180,7 +180,7 @@ h1 .logo1{
     position: relative;
     background-color: white;
     width: 430px;
-    height: 340px;
+    height: 420px;
     top: 50px;
     border: 2px #cccccc6b solid;
     box-shadow: #66666A 1px;
@@ -190,6 +190,15 @@ h1 .logo1{
     overflow: hidden;
     z-index: 8;
 }
+ .topvoya{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    top: 70%;
+    
+
+}
 
 /*----------------Slideimgtop------------------------*/
 .dream{
@@ -198,7 +207,7 @@ h1 .logo1{
 }
 
 .dream img {
-   width: 100%;
+  max-width: 100%
 
    
 }
