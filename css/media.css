@@ -5,8 +5,9 @@ body {
     width: auto;
     
     background-image: url(../images/6346166.jpg);
-    background-position: 0px 135px;
-    background-size: 128%;
+    background-position: -150px 135px;
+    
+    
     
 }
 header{
@@ -447,7 +448,7 @@ figcaption{
 footer{
     position: relative;
     
-    bottom: -65%;
+    bottom: -125%;
 }
 
 
@@ -461,9 +462,13 @@ footer{
  left: 22%;
  width: 195px;
 }
+.voya2 img{
+    width: 610px;
+    height: 420px;
+}
 .voya2 .card {
     width: 610px;
-    height: 605px;
+    height: 550px;
     animation: slider_2 15s  0s   infinite;
 }
 
@@ -506,11 +511,11 @@ footer{
 
     38% {
         opacity: 1;
-        transform: translateX(-42%);
+        transform: translateX(-40%);
     }    
 
     66% {opacity: 1;
-        transform: translateX(-42%);
+        transform: translateX(-40%);
 
     }
 
@@ -536,11 +541,11 @@ footer{
 
     70.25% {
         opacity: 1;
-        transform: translateX(-100%);
+        transform: translateX(-120%);
     }
     99%{
         opacity: 1;
-        transform: translateX(-100%);
+        transform: translateX(-120%);
     }
     100% {
         opacity: 0;
