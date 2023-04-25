@@ -32,7 +32,7 @@ html,body{
 }
 .logo3{
     position: absolute;
-    top: -25px;
+    top: 0px;
 }
 .logo3 b{
     font: 20 3vh "Vibur";
@@ -139,6 +139,11 @@ html,body{
 
 
 /*-----------------------------------------------------------SECTION1-----------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header{
     background-color:  #a0d5eb;
     margin: -15px;
@@ -146,8 +151,8 @@ header{
     
 }
 body{
-    background-color: bisque;
-    background-position: cover;
+    background-image: url(../images/rm222-mind-22.jpg);
+    background-position: 100%;
     background-repeat: no-repeat;
     overflow-x: hidden;
 }
@@ -170,24 +175,121 @@ h1 .logo1{
     
 
 }
-ul li{
-    display: none;
-    text-align: right;
-    font-family: 'Great Vibes', cursive;
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 3vw;
+.card{
+    display: flex;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.603);
+    width: 430px;
+    height: 420px;
+    top: 50px;
+    border: 2px #cccccc6b solid;
+    box-shadow: #66666A 1px;
+    border-radius: 1em;
+    padding-bottom: 1em;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    overflow: hidden;
+    z-index: 8;
+}
+ .topvoya{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    top: 70%;
     
+
 }
 
-.burger{
-    display:flex;
-    position: absolute; 
-    right: 50px;
-    top: 20px;
-   
-    
+/*----------------Slideimgtop------------------------*/
+.dream{
+    height: 40vh;
+    position: relative;
 }
+
+.dream img {
+  max-width: 100%
+
+   
+}
+.dream img.active{
+    opacity: 1;
+}
+
+
+.dream .suivant  {
+    color: white;
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.dream .precedent{
+    color: white;
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.suivant{
+    right: 1rem;
+}
+.precedent{
+    left: 1rem;
+}
+
+
+/*----------------------------burger------------------*/
+
+ .menuItem {
+    display: block;
+    margin: 7rem 7rem;
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menuItem:hover {
+    text-decoration: underline;
+  }
+  
+  .hamburger {
+    position: absolute;
+    z-index: 100;
+    top: 0.5rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 1px;
+    background: #a0d5eb;
+    cursor: pointer;
+  }
+  
+    .logo .closeIcon {
+    display: none;
+  }
+  
+ .menu {
+    position: fixed;
+    transform: translateY(-110%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #a0d5eb;
+    color: black;
+    list-style: none;
+    padding-top: 4rem;
+  }
+  
+  .showMenu {
+    
+    transform: translateY(-10%);
+  }
+  
+/*-------------------------finburger----------------------*/  
 
 
 a {
@@ -202,13 +304,9 @@ a {
 a:visited{
     text-decoration-color: none;
 }
-a:link{
-    text-decoration: none;
-    list-style-type: none;
-    text-decoration-color: none;
-    color: white;
+
     
-}
+
 h3 {
     font-family: 'Dancing Script', cursive;
     font-size: 28px;
@@ -220,24 +318,11 @@ h3 {
     
 }
 
-figcaption{
-    font-family: 'Dancing Script', cursive;
-    font-size: 20px;
-    color: white;
-    border: 1px solid;
-    border-color: #000;
-    background-color: #000;
-    box-shadow: 5px 4px 69px 0px rgba(0, 0, 0, 0.1);
-    
+.Desc{
     position: absolute;
-    top: 190px;
-    max-width: 130px;
-    max-height: 190px;
-    margin: auto;
-    margin-top: 1vh;
- 
-    
+    left: 25px;
 }
+
 
 .Pays{
     font-style: italic;
@@ -266,37 +351,6 @@ figcaption{
 }
 
 
-.dream{
-    display: flex;
-    margin-top: 25px;
-    
-    
-}
-
-.dream .dream1 {
-    position: absolute;
-    animation: slide1 19s infinite;
-
-}
-
-.dream .dream2{
-    position: absolute;
-    animation: slide2 19s infinite;
-}
-.dream .dream3{
-    position: absolute;
-    animation: slide3 19s infinite;
-}
-.dream1{
-    max-width: 450px;
-
-}
-.dream2 {
-    max-width: 420px;
-}
-.dream3 {
-    max-width: 420px;
-}
 
 
 
@@ -354,7 +408,7 @@ input{
 .box-form {
    
     position: relative;
-    top: 350px;
+    top: 70px;
     flex-direction: row;
     width: 100%;
     height: 55vh;
@@ -381,141 +435,99 @@ input{
 
 h2 {
     position: relative;
-    top: 35%;
-    left: 70px;
+    top: 15%;
+    left: 100px;
     font-family: 'Pacifico', cursive;
     font-weight: 400;
     font-size: 32px;
 }
-
-.tableau{
-    display: flex;
-    position: relative;
-    top: 550px;
-    border-collapse: collapse;
-    box-shadow: 5px 4px 69px 0px rgba(0, 0, 0, 0.1);
-
+.info2{
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
 }
+
 .promo {
     display:flex;
     flex-direction: column;
     
 }
-td {
-    font-family: 'Dancing Script', cursive;
-    font-size: 24px;
-   
-
+.cards{
+    display: flex;
+    position: relative;
+    top: -150px;
+    background-color: white;
+    width: 390px;
+    height: 350px;
+    border: 2px #cccccc6b solid;
+    padding: 0px;
+    margin-right: 3em;
+    box-shadow: #66666A 1px;
+    border-radius: 1em;
+    padding-bottom: 1em;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    overflow: hidden;
+    z-index: 8;
+}
+figcaption{
+    font-family: 'pacifico', cursive;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 238px;
+    left: 0px;
+    max-height: 210px;
+    margin: auto;
+    margin-top: 1vh;
+ 
     
 }
-th{
-    font-family: 'Dancing Script', cursive;
-    font-size: 32px;
+.offre{
+    color: #ff4444;
+}
+
+.conta{
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+}
+
+.bas{
+    background-color: #a0d5eb; 
+}
+.visa{
+    font-family: 'pacifico', cursive;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 65%;
+    top: 80%;
+}
+
+.app{
+    font-family: 'pacifico', cursive;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    
+}
+.app2{
+    font-family: 'pacifico', cursive;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 40px;
+    left: 10px;
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-@keyframes slide1 {
-    0% {
-        opacity: 0;
-        transform: translateX(150%);
-    }
-
-    2.25% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-
-    33% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-
-    35.25% {
-        opacity: 0;
-        transform: translateX(-150%);
-    }
-
-    100% {
-        opacity: 0;
-        transform: translateX(-150%);
-    }
-}
-
-@keyframes slide2 {
-    0% {
-        opacity: 0;
-        transform: translateX(150%);
-    }
-
-    35.25% {
-        opacity: 0;
-        transform: translateX(150%);
-    }
-
-    37.5% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-
-    56% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-
-    58.25% {
-        opacity: 0;
-        transform: translateX(-90%);
-    }
-
-    100% {
-        opacity: 0;
-        transform: translateX(-90%);
-    }
-}
-
-@keyframes slide3 {
-    0% {
-        opacity: 0;
-        transform: translateX(50%);
-    }
-
-    59% {
-        opacity: 0;
-        transform: translateX(50%);
-    }
-
-    62.5% {
-        opacity: 1;
-        transform: translateX(0%);
-    }
-
-    94.75% {
-        opacity: 1;
-        transform: translateX(0%);
-    }
-
-    100% {
-        opacity: 0;
-        transform: translateX(-50%);
-    }
-}
 
 
 .swiper {
-    width: 300px;
+    width: 400px;
     height: 300px;
     position: absolute;
     left: 0%;
@@ -532,4 +544,7 @@ th{
   .swiper-slide img {
     display: block;
     width: 100%;
+
   }
+
+

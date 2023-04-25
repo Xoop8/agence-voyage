@@ -6,75 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flight of Dreams</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="/css/media.css">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="./css/media.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   
     
 </head>
 <body>
+    
     <header>
+    
+    
+    
         <div class="logo">
     
-          <h4 class="logo3"> <b><span>Flight</span> <span> Of</span> <span>Dreams</span></b></h4> 
+            <h4 class="logo3"> <b><span>Flight</span> <span> Of</span> <span>Dreams</span></b></h4>
     
-            <ul>
-                <li> <a href="">Nos Destinations</a></li>
-                <li> <a href="">Les Bon Plans</a></li>
-                <li><a href="">Nous contacter</a></li>
-                <li class="burger"> <img src="./images/burger_icon.svg" alt="menu"> </li>
-                
+    
+            <ul class="menu">
+                <li><a class="menuItem" href="#">Accueil</a></li>
+                <li><a class="menuItem" href="#">Destinations</a></li>
+                <li><a class="menuItem" href="#"> Offres spéciales </a></li>
+                <li><a class="menuItem" href="./contact.html">Contacts</a></li>
             </ul>
-    
+            <button class="hamburger">
+                <i class="menuIcon material-icons">menu</i>
+                <i class="closeIcon material-icons">close</i>
+            </button>
+            
+        <script src="./js/menu.js"></script>
         </div>
+       
     
     </header>
 <section1 class="back1">
-    <div class="Presentation">
-        
-        <div class="dream">
-    
-            <div class="dream1">
-    
-                <div class="head1">
-    
-                    <h3 class="Pays">  Seychelles </h3>
-                </div>
-                <figure><img src="./images/seychelles.jpg" width="100%">
-                    <figcaption> <a href="./seychelles.html"class="voyage" >Découvrire l'offre</a> </figcaption>
+    <div class="dream">
+        <div class="voya ">
+            <article class="card">
+                <figure>
+                    <img src="./images/seychelles.jpg">
+                    <figcaption class="topvoya">"Les Seychelles, un véritable paradis sur Terre !
+                 Découvrez une destination de rêve où les plages de sable blanc 
+                 et les eaux cristallines n'attendent que vous."</figcaption>
                 </figure>
-            
-    
-            </div>
-    
-            <div class="dream2">
-    
-                <div class="head1">
-    
-                    <h3 class="Pays2">  Bali </h3>
-                </div>
-                <figure><img src="./images/bali2.jpg" width="100%" alt="">
-                    <figcaption>  Découvrire l'offre </figcaption>
-    
-                </figure>
-    
-            </div>
-            <div class="dream3">
-    
-                <div class="head1">
-    
-                    <h3 class="Pays3">  Canaries</h3>
-                </div>
-                <figure><img src="./images/canaries2.jpg" width="100%" alt="">
-                    <figcaption>Découvrire l'offre</figcaption>
-    
-                </figure>
-            </div>
+            </article>
         </div>
+
+
+
+    <div class="voya2">
     
+        <article class="card">
+            <figure>
+                <img src="./images/bali2.jpg" height="300px" width="500px" >
+            </figure>
+            <figcaption class="topvoya">"Envolez-vous vers l'île des dieux et découvrez Bali, une destination magique où les rizières verdoyantes, les temples mystiques 
+                et les plages de sable fin vous transportent dans un autre monde."</figcaption>
+        </article>
+    </div>
+
+
+
+    <div class="voya3">
+        <article class="card">
+        <figure>
+            
+            <img src="./images/canaries2.jpg" >
+        </figure>
+        <figcaption class="topvoya">"Les Îles Canaries, un joyau volcanique de l'Atlantique ! Venez explorer ces îles ensoleillées où la nature spectaculaire,
+             la gastronomie exquise et l'hospitalité chaleureuse vous attendent."</figcaption>
+        </article>
+        
+        
+    </div>
+     
+        
     
     </div>
+        
+      
+    
+    
+    
 
 </section1>
 
@@ -118,50 +136,87 @@
 
 <section3>
     
-    <h2> Destinations Promo</h2>
-    
-    
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="./images/espagne.jpg" height="300px" />
-                
-            </div>
-            <div class="swiper-slide">
-                <img src="./images/maroc.jpg" height="300px"/>
-            </div>
-            <div class="swiper-slide">
-                <img src="./images/gréce.jpg" height="300px" />
-            </div>
-            <div class="swiper-slide">
-                <img src="./images/italie.jpeg" height="300px" />
-            </div>
+    <h2> Offres spéciales</h2>
+
+    <div class="promo">
+
+        <div class="voy_1">
+            <article class="cards">
+                <figure>
+                    <img src="./images/maroc2.jpg" >
+                    <figcaption class="voy"> "Envolez-vous vers le Maroc pour un voyage envoûtant 
+                        entre traditions séculaires et modernité effervescente." <span class="offre">Voir OFFRE</span> 
+                    </figcaption>
+                </figure>
+            </article>    
         </div>
-        <div class="swiper-pagination"></div>
+
+        <div class="voy_2">
+            <article class="cards">
+                <figure>
+                    <img src="./images/italie2.jpg" >
+                    <figcaption class="voy"> "Découvrez l'Italie, la dolce vita, où l'art, la culture et la gastronomie
+                         se marient pour vous offrir une expérience inoubliable." <span class="offre">Voir OFFRE</span>
+                    </figcaption>
+                </figure>
+
+            </article>    
+        </div>
+
+
+        <div class="voy_3">
+            <article class="cards">
+                <figure>
+                    <img src="./images/madrid.jpg" >
+                    <figcaption class="voy">"Partez à la découverte de Madrid,
+                        la ville aux mille couleurs et saveurs !"<span class="offre">Voir OFFRE</span> 
+                    </figcaption>
+                </figure>
+            </article>    
+        </div>
+
+
+
+
+
+
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  
     
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            effect: "cube",
-            grabCursor: true,
-            cubeEffect: {
-                shadow: true,
-                slideShadows: true,
-                shadowOffset: 20,
-                shadowScale: 0.94,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-            },
-        });
-    </script>
 </section3>
 
-<footer>
-  
 
+
+
+
+
+<footer>
+
+    <div class="bas">
     
+        <a href="./contact.html">
+            <p class="conta"> Contactez-nous</p>
+        </a>
+    
+        <p class="info2"> Infos et Reservations
+        01.39.00.00.00</p>
+        <div class="app">
+       <img src="./images/logo_google_play.svg" alt="" width="25px">
+        <p class="ap"> googleplay </p>
+    </div>
+
+    <div class="app2">
+        <img src="./images/logo_apple.svg" alt="" width="25px" > 
+        <p class="ap"> applestore</p>
+    </div>
+
+        <div class="visa">
+        PAIEMENT SECURISE   
+            <img src="./images/cb_visa_mastercard_logo-1.png" width="30%" alt="">
+        </div>
+    
+    
+    </div>
         
     
 
