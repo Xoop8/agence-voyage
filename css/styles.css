@@ -151,8 +151,8 @@ header{
     
 }
 body{
-    background-image: url(../images/rm222-mind-22.jpg);
-    background-position: 100%;
+    background-image: url(../images/6346166.jpg);
+   
     background-repeat: no-repeat;
     overflow-x: hidden;
 }
@@ -181,6 +181,8 @@ h1 .logo1{
     background-color: rgba(255, 255, 255, 0.603);
     width: 430px;
     height: 420px;
+    max-width: 980px;
+    max-height: auto;
     top: 50px;
     border: 2px #cccccc6b solid;
     box-shadow: #66666A 1px;
