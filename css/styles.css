@@ -36,7 +36,7 @@ html,body{
 }
 .logo3 b{
     font: 20 3vh "Vibur";
-    color: #fee;
+    color: rgb(255, 238, 238);
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
   }
   .logo3 b span{
@@ -130,6 +130,18 @@ html,body{
     left: 50vw;
 }
 
+.desti {
+  display: none;
+}
+.desti1{
+  display: none;
+}
+.desti2{
+  display: none;
+}
+.search{
+  display: none;
+}
 
 
 
@@ -143,6 +155,7 @@ html,body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 header{
     background-color:  #a0d5eb;
@@ -151,10 +164,11 @@ header{
     
 }
 body{
+    box-sizing: border-box;
     background-image: url(../images/6346166.jpg);
-   
     background-repeat: no-repeat;
     overflow-x: hidden;
+    
 }
 
 h1 .logo1{
@@ -180,7 +194,7 @@ h1 .logo1{
     position: relative;
     background-color: rgba(255, 255, 255, 0.603);
     width: 430px;
-    height: 420px;
+    height: 350px;
     max-width: 980px;
     max-height: auto;
     top: 50px;
@@ -192,54 +206,141 @@ h1 .logo1{
     overflow: hidden;
     z-index: 8;
 }
- .topvoya{
-    font-family: 'Dancing Script', cursive;
-    font-size: 20px;
-    display: flex;
-    position: absolute;
-    top: 70%;
-    
+ 
 
-}
 
-/*----------------Slideimgtop------------------------*/
+
+
+/*--------------------------------------Slideimgtop SECTION1-------------------------*/
 .dream{
-    height: 40vh;
+    height: 37vh;
     position: relative;
+    top: -22vw;
+    box-sizing: border-box;
 }
 
 .dream img {
-  max-width: 100%
-
-   
+  width: 100vw;
+  max-width: 100%;
+  max-height: 27vh;
 }
-.dream img.active{
-    opacity: 1;
-}
-
-
-.dream .suivant  {
-    color: white;
+  .dream{
+    display: flex;
+    border-radius: 1rem;
+    position: relative;
+    left: 80%;
+    margin-top: 5%;
+    transform: translate(-80%, -10%);
+    flex-direction: row;
+  }
+  
+  .voyage1 .card{
     position: absolute;
-    font-size: 2rem;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.dream .precedent{
-    color: white;
+    top: 10em;
+  
+    animation: slider_1 15s 0s  infinite;
+  }
+  
+  .voyage2 .card {
     position: absolute;
-    font-size: 2rem;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 10em;
+    animation: slider_2 15s  0s   infinite;
+  }
+  
+  .voyage3 .card{
+    position: absolute;
+    top: 10em;
+    animation: slider_3 15s  0s  infinite;
+  }
+  
+  @keyframes slider_1 {
+  
+    0%  
+    
+    {opacity: 0;
+    
+     transform: translateX(100%);
+    }
+  
+    2.25% { opacity: 1;
+         transform: translateX( 0%);  }
+  
+    33% {opacity: 1;
+        transform: translateX(0%);
+    }
+  
+    35.25% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+  
+    100% { opacity: 0;
+        transform: translateX(-100%);
+  
+        }
+  
+  }
+  @keyframes slider_2 {
+  
+    0%  {  opacity: 0;
+        transform: translateX(100%);
+    }
+  
+    35.25% {  
+        opacity: 0;
+        transform: translateX(100%);  }
+  
+    38% {
+        opacity: 1;
+        transform: translateX(-0%);
+    }    
+  
+    66% {opacity: 1;
+        transform: translateX(-0%);
+  
+    }
+  
+    69% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+  
+    100% { 
+        opacity: 0;
+        transform: translateX(-100%);
+  
+        }
+  
+  }
+  @keyframes slider_3 {
+    0%  {  opacity: 0;
+        transform: translateX(100%);
+    }
+  
+    69% {  opacity: 0;
+        transform: translateX( 100%);  }
+  
+    70.25% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    99%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    100% {
+        opacity: 0;
+         transform: translateX(-100%);
+  
+        }
+  
+  }
 
-}
 
-.suivant{
-    right: 1rem;
-}
-.precedent{
-    left: 1rem;
-}
+
+/*---------------------------SLiderimgtop fin ----------------------------*/
+
+
 
 
 /*----------------------------burger------------------*/
@@ -273,7 +374,7 @@ h1 .logo1{
   
  .menu {
     position: fixed;
-    transform: translateY(-110%);
+    transform: translateY(-120%);
     transition: transform 0.2s;
     top: 0;
     left: 0;
@@ -288,7 +389,7 @@ h1 .logo1{
   
   .showMenu {
     
-    transform: translateY(-10%);
+    transform: translateY(-0%);
   }
   
 /*-------------------------finburger----------------------*/  
@@ -320,37 +421,10 @@ h3 {
     
 }
 
-.Desc{
-    position: absolute;
-    left: 25px;
-}
 
 
-.Pays{
-    font-style: italic;
-    color: aliceblue;
-    font-size: 42px;
-    top: -55px;
-    
-}
-.Pays2{
-    font-style: italic;
-    color: aliceblue;
-    font-size: 44px;
-    top: -65px;
-}
-.Pays3{
-    font-style: italic;
-    color: aliceblue;
-    font-size: 44px;
-    top: -59px;
-}
 
-.head1{
-   position: relative;
-   top: 45px;
-   left: 110px;
-}
+
 
 
 
@@ -410,6 +484,7 @@ input{
 .box-form {
    
     position: relative;
+    box-sizing: border-box;
     top: 70px;
     flex-direction: row;
     width: 100%;
@@ -439,24 +514,137 @@ h2 {
     position: relative;
     top: 15%;
     left: 100px;
+    width: 280px;
     font-family: 'Pacifico', cursive;
     font-weight: 400;
     font-size: 32px;
 }
-.info2{
-    font-family: 'Pacifico', cursive;
-    font-size: 22px;
-}
 
 .promo {
     display:flex;
-    flex-direction: column;
+    box-sizing: border-box;
     
+   
+    
+}
+.promo{
+  display: flex;
+  border-radius: 1rem;
+  position: absolute;
+  left: 0%;
+  margin-top: 90%;
+  transform: translate(-80%, -10%);
+  flex-direction: row;
+  
+  
+  
+}
+.voy_1 .cards {
+  position: absolute;
+  animation: slide1 20s 0s  infinite;
+  }
+
+  .voy_2 .cards {
+      position: absolute;
+      animation: slide2 20s  0s   infinite;
+  }
+
+  .voy_3 .cards{
+      position: absolute;
+      animation: slide3 20s  0s  infinite;
+  }
+
+  .promo img{
+      width: 100%;
+      height: 240px;
+
+  }
+
+@keyframes slide1 {
+
+  0%  
+  
+  {opacity: 0;
+  
+   transform: translateX(100%);
+  }
+
+  2.25% { opacity: 1;
+       transform: translateX( 0%);  }
+
+  33% {opacity: 1;
+      transform: translateX(0%);
+  }
+
+  35.25% {
+      opacity: 0;
+      transform: translateX(-100%);
+  }
+
+  100% { opacity: 0;
+      transform: translateX(-100%);
+
+      }
+
+}
+@keyframes slide2 {
+
+  0%  {  opacity: 0;
+      transform: translateX(100%);
+  }
+
+  35.25% {  
+      opacity: 0;
+      transform: translateX(100%);  }
+
+  38% {
+      opacity: 1;
+      transform: translateX(-0%);
+  }    
+
+  66% {opacity: 1;
+      transform: translateX(-0%);
+
+  }
+
+  69% {
+      opacity: 0;
+      transform: translateX(-100%);
+  }
+
+  100% { 
+      opacity: 0;
+      transform: translateX(-100%);
+
+      }
+
+}
+@keyframes slide3 {
+  0%  {  opacity: 0;
+      transform: translateX(100%);
+  }
+
+  69% {  opacity: 0;
+      transform: translateX( 100%);  }
+
+  70.25% {
+      opacity: 1;
+      transform: translateX(-0%);
+  }
+  99%{
+      opacity: 1;
+      transform: translateX(-0%);
+  }
+  100% {
+      opacity: 0;
+       transform: translateX(-100%);
+
+      }
+
 }
 .cards{
     display: flex;
-    position: relative;
-    top: -150px;
+    top: -35vw;
     background-color: white;
     width: 390px;
     height: 350px;
@@ -492,19 +680,48 @@ figcaption{
     font-size: 3rem;
 }
 
-.bas{
+
+
+
+/*------------------------------FOOTER---------------------------------*/
+
+.info2{
+  font-family: 'Pacifico', cursive;
+  font-size: 22px;
+}
+
+
+
+
+
+footer {
     background-color: #a0d5eb; 
+    margin-top: 40em;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 .visa{
     font-family: 'pacifico', cursive;
     font-size: 10px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 65%;
+    width: 150px;
+    left: 8em;
     top: 80%;
 }
-
+.visa img{
+  position: relative;
+  left: 17em;
+}
+.vis{
+  position: relative;
+  width: 130px;
+  left: 19em;
+  box-sizing: border-box;
+  overflow: hidden;
+}
 .app{
     font-family: 'pacifico', cursive;
     font-size: 14px;
@@ -513,6 +730,8 @@ figcaption{
     position: relative;
     top: 40px;
     left: 10px;
+    box-sizing: border-box;
+    width: 250px;
     
 }
 .app2{
@@ -521,32 +740,11 @@ figcaption{
     display: flex;
     flex-direction: row;
     position: relative;
-    top: 40px;
+    top: 0px;
     left: 10px;
     
 }
-
-
-
-.swiper {
-    width: 400px;
-    height: 300px;
-    position: absolute;
-    left: 0%;
-    top: 50%;
-    margin-left: -150px;
-    margin-top: -150px;
-  }
-
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-
-  }
-
+.suivre{
+  font-family: 'pacifico', cursive;
+}
 
