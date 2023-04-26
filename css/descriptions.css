@@ -257,7 +257,19 @@ h6 strong {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-#dreams {
+#dr {
+  font: 20 3vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+  animation: blink linear infinite 2s;
+}
+#ea {
+  font: 20 3vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+  animation: blink linear infinite 3s;
+}
+#ms {
   font: 20 3vh "Vibur";
   color: #fee;
   text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
