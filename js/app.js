@@ -1,8 +1,8 @@
-let voya = document.getElementsByClassName('voya');
+let img__slider = document.getElementsByClassName('voyage');
 
 let etape = 0;
 
-let nbr__img = voya.length;
+let nbr__img = img__slider.length;
 
 let precedent = document.querySelector('.precedent');
 let suivant = document.querySelector('.suivant');
@@ -19,7 +19,7 @@ suivant.addEventListener('click', function() {
         etape = 0;
     }
     enleverActiveImages();
-    voya[etape].classList.add('active');
+    img__slider[etape].classList.add('active');
 })
 
 precedent.addEventListener('click', function() {
@@ -28,7 +28,7 @@ precedent.addEventListener('click', function() {
         etape = nbr__img - 1;
     }
     enleverActiveImages();
-    voya[etape].classList.add('active');
+    img__slider[etape].classList.add('active');
 })
 
 setInterval(function() {
@@ -37,5 +37,5 @@ setInterval(function() {
         etape = 0;
     }
     enleverActiveImages();
-    voya[etape].classList.add('active');
-}, 4000)
+    img__slider[etape].classList.add('active');
+}, 5000)

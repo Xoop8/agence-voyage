@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
    
     
@@ -66,52 +66,67 @@
     </div>
     <button class="search" >RECHERCHE</button>
     <div class="dream">
-
-      
-
-
-        <div class="voyage1">
+    
+    
+    
+    
+        <div class="voyage active">
             <article class="card">
                 <figure>
                     <img src="./images/seychelles.jpg">
                     <figcaption class="topvoya">"Les Seychelles, un véritable paradis sur Terre !
-                 Découvrez une destination de rêve où les plages de sable blanc 
-                 et les eaux cristallines n'attendent que vous."<a href="./seychelles.html" class="detail">details</a></figcaption>
+                        Découvrez une destination de rêve où les plages de sable blanc
+                        et les eaux cristallines n'attendent que vous."<a href="./seychelles.html"
+                            class="detail">details</a></figcaption>
                 </figure>
             </article>
         </div>
-
-
-
-    <div class="voyage2">
     
-        <article class="card">
-            <figure>
-                <img src="./images/bali2.jpg"  >
-            </figure>
-            <figcaption class="topvoya">"Envolez-vous vers l'île des dieux et découvrez Bali, une destination magique où les rizières verdoyantes, les temples mystiques 
-                et
-                les plages de sable fin vous transportent dans un autre monde." <a href="./seychelles.html" class="detail">details</a> </figcaption>
-        </article>
-    </div>
+    
+    
+        <div class="voyage">
+    
+            <article class="card">
+                <figure>
+                    <img src="./images/bali2.jpg">
+                </figure>
+                <figcaption class="topvoya">"Envolez-vous vers l'île des dieux et découvrez Bali, une destination magique où
+                    les rizières verdoyantes, les temples mystiques
+                    et
+                    les plages de sable fin vous transportent dans un autre monde." <a href="./seychelles.html"
+                        class="detail">details</a> </figcaption>
+            </article>
+        </div>
+    
+    
+    
+        <div class="voyage">
+            <article class="card">
+                <figure>
+    
+                    <img src="./images/canaries2.jpg">
+                </figure>
+                <figcaption class="topvoya">"Les Îles Canaries, un joyau volcanique de l'Atlantique ! Venez explorer ces
+                    îles ensoleillées où la nature spectaculaire,
+                    la gastronomie exquise et l'hospitalité chaleureuse vous attendent."<a href="./seychelles.html"
+                        class="detail">details</a></figcaption>
+            </article>
+           
+        </div>
 
+        <div class="suivant">
+            <i class="fa-solid fa-circle-arrow-right"></i>
+        </div>
 
+        <div class="precedent">
+            <i class="fa-solid fa-circle-arrow-left"></i>
+        </div>
 
-    <div class="voyage3">
-        <article class="card">
-        <figure>
-            
-            <img src="./images/canaries2.jpg" >
-        </figure>
-        <figcaption class="topvoya">"Les Îles Canaries, un joyau volcanique de l'Atlantique ! Venez explorer ces îles ensoleillées où la nature spectaculaire,
-             la gastronomie exquise et l'hospitalité chaleureuse vous attendent."<a href="./seychelles.html" class="detail">details</a></figcaption>
-        </article>
       
-    </div>
-     
-   
+    
     </div>
     
+    <script src="./js/app.js"></script>
     
     
     
@@ -132,7 +147,7 @@
             <form action="" method="get" class="form-example">
 
                 <div class="boxe2">
-                        <div class="vol">Séjour</div>
+                        <div class="sejour">Séjour</div>
                     <div class="champs">
                         <label for="Destinations">&nbsp; Destinations</label>
                         <input type="text" placeholder="Destinations (Pays,Ville,Region)" name="message" id="message">
