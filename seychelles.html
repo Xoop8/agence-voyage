@@ -26,6 +26,9 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+
   </head>
   <body>
     <header>
@@ -34,14 +37,18 @@
           <b><span>Flight</span> <span> Of</span> <span>Dreams</span></b>
         </h4>
 
-        <ul>
-          <li><a href="">Nos Destinations</a></li>
-          <li><a href="">Les Bon Plans</a></li>
-          <li><a href="">Nous contacter</a></li>
-          <li class="burger">
-            <img src="./images/burger_icon.svg" alt="menu" />
-          </li>
-        </ul>
+        <ul class="menu">
+          <li><a class="menuItem" href="./index.html">Accueil</a></li>
+          <li><a class="menuItem" href="./index.html">Destinations</a></li>
+          <li><a class="menuItem" href="./index.html#offre"> Offres spéciales </a></li>
+          <li><a class="menuItem" href="./contact.html">Contacts</a></li>
+      </ul>
+      <button class="hamburger">
+          <i class="menuIcon material-icons">menu</i>
+          <i class="closeIcon material-icons">close</i>
+      </button>
+      
+  <script src="./js/menu.js"></script>
       </div>
     </header>
     

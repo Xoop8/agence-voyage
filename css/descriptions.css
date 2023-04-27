@@ -79,7 +79,7 @@ body {
 
 .logo3 {
   position: absolute;
-  top: -25px;
+  top: -30px;
 }
 
 .logo3 b {
@@ -105,9 +105,15 @@ body {
   color: #ff4444;
   text-align: left;
 }
+header{
+  background-color:  #a0d5eb;
+  margin: -15px;
+  height: 50px;
+  
+}
 
 header ul li {
-  display: none;
+  display: flex;
   text-align: right;
   font-family: 'Great Vibes', cursive;
   text-decoration: none;
@@ -116,15 +122,54 @@ header ul li {
 
 }
 
-.burger {
-  display: flex;
-  position: absolute;
-  right: 50px;
-  top: 20px;
-
-
+/*-------------------------------Burger--------------------------*/
+.menuItem {
+  display: block;
+  margin: 4rem 7rem;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
 }
 
+.menuItem:hover {
+  text-decoration: underline;
+}
+
+.hamburger {
+  position: absolute;
+  z-index: 100;
+  top: 0.3rem;
+  right: 1rem;
+  padding: 0px;
+  border: black solid 1px;
+  background: #a0d5eb;
+  cursor: pointer;
+}
+
+  .logo .closeIcon {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-120%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #a0d5eb;
+  color: black;
+  list-style: none;
+  padding-top: 4rem;
+}
+
+.showMenu {
+  
+  transform: translateY(-5%);
+}
+/*--------------------------------finBurger---------------------------------*/
 body {
   background-image: url(../images/6346166.jpg);
 
@@ -373,6 +418,61 @@ justify-self: center;
 }
 
 @media screen and (min-width:1100px) {
+  header{
+    background-color:  #a0d5eb;
+    margin: -15px;
+    height: 90px;
+    
+  }
+  .logo3 {
+    position: absolute;
+    top: -170px;
+  }
+  .logo3 b {
+    font: 20 6vh "Vibur";
+    color: #fee;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+  }
+  .menu li{ 
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    text-align: right;
+    font-family: 'Great Vibes', cursive;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 0vw;
+    left: 45%;
+    width: 220px;
+    color: #000;
+   
+}
+.menu{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  top: -120px;
+  left: 20%;
+  transform: translateY(0%); 
+  background: none; 
+  
+
+}    
+.menuItem {
+  display: block;
+  margin: 5rem 2rem;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+.menuItem:hover {
+  text-decoration: underline;
+}
+  
+  
+  .hamburger{
+    display: none;
+  }
   section {
     position: relative;
   }

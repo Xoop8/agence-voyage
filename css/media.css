@@ -16,7 +16,7 @@
 header{
     display: flex;
 position: relative;
-height: 150px;
+height: 90px;
 }
 .hamburger {
     display: none;
@@ -26,7 +26,7 @@ height: 150px;
     display: flex;
     flex-direction: row;
     top: -120px;
-    left: 30%;
+    left: 40%;
     transform: translateY(0%); 
     background: none; 
     
@@ -34,7 +34,7 @@ height: 150px;
 }    
 .menuItem {
     display: block;
-    margin: 7rem 7rem;
+    margin: 5rem 2rem;
     font-size: 2rem;
     color: white;
     text-decoration: none;
@@ -62,7 +62,7 @@ height: 150px;
    
 }
 .logo3 b{
-    font: 40 8vh "Vibur";
+    font: 40 6vh "Vibur";
     color: #fee;
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
   }
