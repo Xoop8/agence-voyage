@@ -3,7 +3,8 @@
 html,
 body {
   margin: 0;
-  height: 100%
+  height: 100%;
+  box-sizing: border-box;
 }
 
 @keyframes blink {
@@ -79,7 +80,7 @@ body {
 
 .logo3 {
   position: absolute;
-  top: -30px;
+  top: -1.7em;
 }
 
 .logo3 b {
@@ -422,11 +423,13 @@ justify-self: center;
     background-color:  #a0d5eb;
     margin: -15px;
     height: 90px;
+  position: relative;
+  display: flex;
+  width: 100%;
     
   }
   .logo3 {
     position: absolute;
-    top: -170px;
   }
   .logo3 b {
     font: 20 6vh "Vibur";
@@ -435,26 +438,26 @@ justify-self: center;
   }
   .menu li{ 
     display: flex;
-    position: relative;
     flex-direction: row;
     text-align: right;
     font-family: 'Great Vibes', cursive;
     text-decoration: none;
     list-style-type: none;
     font-size: 0vw;
-    left: 45%;
     width: 220px;
     color: #000;
    
+   
 }
 .menu{
-  position: relative;
   display: flex;
+  position: absolute;
   flex-direction: row;
-  top: -120px;
-  left: 20%;
+  top: -120px; 
   transform: translateY(0%); 
   background: none; 
+  max-width: fit-content;
+  left: auto;
   
 
 }    
@@ -492,6 +495,7 @@ justify-self: center;
   #section-3 {
     display: flex;
     align-items: center;
+    justify-content: center;
 
   }
 
