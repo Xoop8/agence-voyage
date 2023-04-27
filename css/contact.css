@@ -1,5 +1,9 @@
   /*--------------------------contact-Mobile-------------------------*/
-
+ body{
+    background-image: url(../images/composition-toy-airplanes-passport-hat.jpg);
+    background-size: 300%;
+    object-fit: fill;
+ }
   
 
   .RDV{
@@ -120,7 +124,7 @@ margin-bottom: 5vh;
     }
     
     .envoyer{
-        margin-top: 55px;
+        margin-top: 30px;
         margin-left: 60px;
         background-color: #1886FF ;
         height: 55px;
@@ -161,7 +165,7 @@ margin-bottom: 5vh;
     flex-direction: row;
     background-color: white;
     width: 100%;
-    height: 85vh;
+    height: 88vh;
     box-shadow: 5px 4px 69px 0px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
     max-width: 800px;
@@ -255,7 +259,7 @@ margin-bottom: 5vh;
         }
         
         .envoyer{
-            margin-top: 55px;
+            margin-top: 25px;
             margin-left: 60px;
             background-color: #1886FF ;
             height: 55px;
