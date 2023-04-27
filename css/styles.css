@@ -446,7 +446,7 @@ h3 {
 
   
 }
-.card
+
 
 
 
@@ -461,12 +461,11 @@ h3 {
 
 
 /*--------------------------------------------------SECTION2-----------------------------------------------------------------------*/
-.sejour{
-    position: relative;
+h5{
+  position: relative;
     font-family: 'Pacifico', cursive;
     font-size: 45px;
     font-weight: 400;
-    top: -30px;
     left: 130px;
 }
 .champs{
