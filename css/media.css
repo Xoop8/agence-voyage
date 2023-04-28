@@ -1,12 +1,16 @@
 /*---------------------------Mobile---------------------------*/
-@media screen and (max-width: 385px) {
-.topvoya{
+@media screen and (max-width: 405px) {
+  .topvoya{
     position: absolute;
-    top: 10em;
+    top: 12em;
   }
 }
 .promo2{
     display: none;
+}
+.suivant {
+  
+  z-index: 10;
 }
 
 
@@ -95,58 +99,42 @@ width: 100%;
     }
 .topvoya{
     position: absolute;
-    top: 21em;
+    top: 25.5em;
+    
   }
   
   .dream{
-      height: 40vh;
+    width: 55vw;
+      height: 80vh;
       position: relative;
-      top: -2vw;
+      top: 4vw;
+      left: 65em;
       box-sizing: border-box;
   }
   
   .dream img {
     width: 99vw;
     max-width: 100%;
-    max-height: 50vh;
+    max-height: 60vh;
   }
     .dream{
       display: flex;
       border-radius: 1rem;
       position: relative;
-      left: 100%;
       margin-top: 2%;
-      transform: translate(-80%, -10%);
+      
       flex-direction: row;
     }
     
-    .voyage1 .card{
-      position: absolute;
-      top: 9.5em;
-    
-      animation: slider_1 15s 0s  infinite;
-    }
-    
-    .voyage2 .card {
-      position: absolute;
-      top: 9.5em;
-      animation: slider_2 15s  0s   infinite;
-    }
-    
-    .voyage3 .card{
-      position: absolute;
-      top: 9.5em;
-      animation: slider_3 15s  0s  infinite;
-    }
     .card{
         display: flex;
         position: absolute;
         background-color: rgba(255, 255, 255, 0.603);
         width: 100%;
-        height: 70vh;
+        height: 80vh;
         max-width: 880px;
         max-height: auto;
-        top: 20px;
+        top: -120px;
         border: 2px #cccccc6b solid;
         box-shadow: #66666A 1px;
         border-radius: 1em;
@@ -184,25 +172,48 @@ width: 100%;
   .des1{
     display: flex;
     position: relative;
-    left: 70px;
     font-family: 'Dancing Script', cursive;
-    font-size: 24px;
+    font-size: 30px;
     
+  }
+  .des2{
+    display: flex;
+    position: relative;
+    left: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+  }
+  .des3{
+    display: flex;
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
   }
   .desti1 {
     display: flex;
     position: relative;
     top: 1em;
+    left: 15;
    
   
   }
   .desti1 input{
     width: 19vw;
   }
+  #Aeroport{
+    position: absolute;
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    background-color: white;
+    width: 8em;
+    height: 1.8em;
+    left: 9em;
+  }
   .desti2 {
     display: flex;
     position: relative;
     top: 1em;
+    left: 19em;
     
   
   }
@@ -212,27 +223,31 @@ width: 100%;
   .search{
     display: flex;
     position: relative;
-    left: 85%;
+    top: -0.5em;
+    left: 82%;
     background-color: red;
     font-family: 'Dancing Script', cursive;
     font-size: 24px;
 
   }
   .suivant, .precedent {
+    width: 32px;
+    height: 32px;
     color: #ffffff;
     font-size: 2rem;
-    position: absolute;
-    transform: translateY(900%);
+    position: relative;
+    top: 40%;
+    transform: translateY(0%);
     cursor: pointer;
 }
 
 .suivant {
-    left: 53rem;
+    position: absolute;
     z-index: 10;
 }
 
 .precedent {
-    left: -0rem;
+    position: absolute;
     z-index: 10;
 
 }
@@ -242,18 +257,24 @@ width: 100%;
 /*------------------------SEction2-------------------------------*/
 @media screen and (min-width: 600px){
 
+  .part2{
+ width: auto;
+ margin-top: 2.2em;
+  }
+
 .offres{
         display: flex;
         flex-direction: row;
         position: relative;
         left: 40vw;
-        top: 45vw;
+        top: 10vw;
 
     }
 
 .promo{
     display: flex;
     left: 75vw;
+   top: 19vw;
     
 }
 .voy_1 .cards{
@@ -281,7 +302,7 @@ footer {
     display: flex;
     position: relative;
     height: 39vh;
-    top: 49vw;
+    top: 20vw;
     
 }
 .vis{
