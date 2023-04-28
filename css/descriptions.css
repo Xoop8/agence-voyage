@@ -182,7 +182,7 @@ p,
 ul {
   font-size: 1rem;
   line-height: 1.5em;
-  font-family: 'Ysabeau', sans-serif;
+  font-family:'Times New Roman', Times, serif
 }
 
 
@@ -490,7 +490,9 @@ justify-self: center;
     margin-right: auto;
     margin-left: 0;
   }
-
+#section-1 {
+  margin-top:15px;
+}
   #section-1,
   #section-3 {
     display: flex;
