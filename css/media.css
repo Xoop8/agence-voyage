@@ -477,7 +477,7 @@ figcaption{
 
 /*----------------------------header---------------------------------*/
 
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 1101px) {
 
 header{
     display: flex;
@@ -549,7 +549,7 @@ width: 100%;
 
 /*--------------------------SECTION1-----------------------------------*/
 
-@media screen and (min-width: 901px){
+@media screen and (min-width: 1101px){
     .detail{
 
         text-transform: uppercase;
@@ -713,7 +713,7 @@ width: 100%;
 }
 
 /*------------------------SEction2-------------------------------*/
-@media screen and (min-width: 901px){
+@media screen and (min-width: 1101px){
 
   .part2{
  width: auto;
@@ -732,7 +732,7 @@ width: 100%;
 .promo{
     display: flex;
     left: 75vw;
-   top: 19vw;
+   top: 39vw;
     
 }
 .voy_1 .cards{
@@ -754,7 +754,7 @@ width: 100%;
 
 
 /*--------------------------FOOTER------------------*/
-@media screen and (min-width: 901px){
+@media screen and (min-width: 1101px){
 
 footer {
     display: flex;
