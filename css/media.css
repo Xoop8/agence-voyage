@@ -460,11 +460,26 @@ figcaption{
 
 
 
+
+
+/*-------------------------------------Footer---------------------------------*/
+.visa{
+  position: relative;
+  left: 60%;
+
+}
+.contact{
+  position: relative;
+  left: 30%;
+}
+.app{
+  position: relative;
+  
 }
 
 
 
-
+}
 
 
 

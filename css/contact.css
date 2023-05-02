@@ -140,9 +140,18 @@ margin-bottom: 5vh;
         
     }
 
+
+    /*----------------------------TABLETTE------------------------------------*/
+    
+
   /*-----------------------------Contact-desktop------------------------------*/
 
-  @media screen and (min-width:495px) {
+  @media screen and (min-width:601px) {
+    body{
+        background-image: url(../images/composition-toy-airplanes-passport-hat.jpg);
+        background-size: 200%;
+        object-fit: fill;
+     }
 
 
     .RDV{
@@ -177,12 +186,12 @@ margin-bottom: 5vh;
     
     }
     .formul {
-        padding: 80px ;
+        padding: 150px ;
         display: flex;
         padding-top: 25px;
         flex-direction: column;
         text-align: left;
-        width: 35%;
+        width: 40%;
         
         
         
@@ -217,7 +226,7 @@ margin-bottom: 5vh;
         .champs{
             display: flex;
             flex-direction: column;
-            width: 290px;
+            width: 380px;
         }
         
         .e-mail{
@@ -237,7 +246,7 @@ margin-bottom: 5vh;
             border: none;
             box-shadow: 0 1px 0 black ;
             outline: 0;
-            font-size: 14px;
+            font-size: 16px;
             font-family: 'Pacifico', cursive;
             color: #989898;
             border-bottom: 1px solid 
@@ -259,8 +268,8 @@ margin-bottom: 5vh;
         }
         
         .envoyer{
-            margin-top: 25px;
-            margin-left: 60px;
+            margin-top: 155px;
+            margin-left: 180px;
             background-color: #1886FF ;
             height: 55px;
             width: 155px;
@@ -278,3 +287,26 @@ margin-bottom: 5vh;
 
 
   }
+
+  /*------------------------------DESKTOP--------------------------------*/
+  @media screen and (min-width:601px) {
+    .envoyer{
+        margin-top: 45px;
+        margin-left: 180px;
+        background-color: #1886FF ;
+        height: 55px;
+        width: 155px;
+        font-size: large;
+        cursor: pointer;
+        
+        
+    }
+    
+    .envoyer:hover{
+        transform: scale(1.1);
+        
+    }
+
+
+
+}
