@@ -15,7 +15,7 @@
 
 
 /*----------------------------Tablette-----------------------------*/
-@media screen and (max-width: 605px) {
+@media screen and (min-width: 605px and max-width: 1100px) {
 .menuItem {
   display: block;
   margin: 4rem 7rem;
@@ -780,11 +780,11 @@ footer {
 }
 .vis{
     font-size: 16px;
-    left: 62em;
+    left: 2em;
     top: -5em;
 }
 .visa img {
-    left: 95em;
+    left: 1em;
     top: -5em;
     width: 250px;
 }
@@ -1172,12 +1172,12 @@ width: 50px;
   }
   .vis{
       font-size: 16px;
-      left: 82em;
+      left: 8em;
       top: -5em;
       height: 90px;
   }
   .visa img {
-      left: 125em;
+      left: 5em;
       top: -5em;
       width: 250px;
   }
