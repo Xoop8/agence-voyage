@@ -14,11 +14,485 @@
 }
 
 
+/*----------------------------Tablette-----------------------------*/
+@media screen and (max-width: 605px) {
+.menuItem {
+  display: block;
+  margin: 4rem 7rem;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  text-decoration: underline;
+}
+
+.hamburger {
+  position: absolute;
+  z-index: 100;
+  top: 0.5rem;
+  right: 1rem;
+  padding: 4px;
+  border: black solid 1px;
+  background: #a0d5eb;
+  cursor: pointer;
+}
+
+  .logo .closeIcon {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-120%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #a0d5eb;
+  color: black;
+  list-style: none;
+  padding-top: 4rem;
+}
+
+.showMenu {
+  
+  transform: translateY(-0%);
+}
+
+}
+
+/*--------------------------SECTION1-----------------------------------*/
+
+@media screen and (min-width: 601px){
+  .box-destination{
+    display: none;
+  }
+  .detail{
+
+      text-transform: uppercase;
+      font-size: 20px;
+      color: red;
+  }
+.topvoya{
+  position: absolute;
+  top: 16.5em;
+  
+}
+
+.dream{
+  width: 55vw;
+    height: 20vh;
+    position: relative;
+    top: 4vw;
+    left: 35em;
+    box-sizing: border-box;
+}
+
+.dream img {
+  width: 99vw;
+  max-width: 100%;
+  max-height: 25vh;
+}
+  .dream{
+    display: flex;
+    border-radius: 1rem;
+    position: relative;
+    margin-top: 2%;
+    flex-direction: row;
+  }
+  
+  .card{
+      display: flex;
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.603);
+      width: 100%;
+      height: 40vh;
+      max-width: 880px;
+      max-height: auto;
+      top: -120px;
+      border: 2px #cccccc6b solid;
+      box-shadow: #66666A 1px;
+      border-radius: 1em;
+      padding-bottom: 1em;
+      box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+      overflow: hidden;
+      z-index: 8;
+    }
+
+
+
+
+
+/*--------------------------------------------------SECTION2-----------------------------------------------------------------------*/
+h5{
+  position: relative;
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    font-weight: 400;
+    left: 130px;
+}
+.champs{
+    position: absolute;
+    top: 15vw;
+    left: 3vw;
+    
+}
+.champs2{
+    position: absolute;
+    top: 25vw;
+    left: 3vw;
+}
+.champs3{
+    position: absolute;
+    top: 35vw;
+    left: 3vw;
+}
+
+label {
+    display: none;
+}
+
+.b1{
+    position: absolute;
+    color: aliceblue;
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    top: 420px;
+    left: 180px;
+    background-color: red;
+    border-radius: 15%;
+    width: 150px;
+    height: 40px;
+}
+input{
+    height: 5vh;
+    width: 55vw;
+    outline: 0;
+   
+}
+
+
+    .box-form {
+   
+      position: relative;
+      box-sizing: border-box;
+      top: 20em;
+      flex-direction: row;
+      width: 100%;
+      height: 55vh;
+      border: 2px solid #fee;
+      background-color:  #a0d5eb;
+      border-radius: 40px;
+      max-width: 500px;
+      max-height: 600px;
+      margin: auto;
+      margin-top: 1vh;
+      margin-bottom: 5vh;
+     
+  }
+  
+  .formul {
+     position: absolute ;
+  
+  }
+
+.desti {
+  display: flex;
+  position: relative;
+  top: 1.2em;
+  left: 30px;
+
+}
+.desti input{
+  width: 19vw;
+}
+.des1{
+  display: flex;
+  position: relative;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  
+}
+.des2{
+  display: flex;
+  position: relative;
+  left: 50px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 28px;
+}
+.des3{
+  display: flex;
+  position: relative;
+  font-family: 'Dancing Script', cursive;
+  font-size: 32px;
+}
+.desti1 {
+  display: flex;
+  position: relative;
+  top: 1em;
+  left: 15;
+ 
+
+}
+.desti1 input{
+  width: 19vw;
+}
+#Aeroport{
+  position: absolute;
+  font-family: 'Dancing Script', cursive;
+  font-size: 22px;
+  background-color: white;
+  width: 8em;
+  height: 1.8em;
+  left: 9em;
+}
+.desti2 {
+  display: flex;
+  position: relative;
+  top: 1em;
+  left: 19em;
+  
+
+}
+.desti2 input{
+  width: 19vw;
+}
+.search{
+ display: none;
+
+}
+.suivant, .precedent {
+  width: 32px;
+  height: 32px;
+  color: #ffffff;
+  font-size: 2rem;
+  position: relative;
+  top: 40%;
+  transform: translateY(0%);
+  cursor: pointer;
+}
+
+.suivant {
+  position: absolute;
+  z-index: 10;
+}
+
+.precedent {
+  position: absolute;
+  z-index: 10;
+
+}
+/*--------------------------------------------------------SECTION3---------------------------------------------------------------------------*/
+
+h2{
+  position: relative;
+  top: 8.2em;
+  left: 280px;
+  width: 280px;
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.promo {
+  display:flex;
+  box-sizing: border-box;
+  
+ 
+  
+}
+.promo{
+display: flex;
+border-radius: 1rem;
+position: absolute;
+left: 25%;
+margin-top: 70%;
+transform: translate(-80%, -10%);
+flex-direction: row;
+
+
+
+}
+.voy_1 .cards {
+position: absolute;
+animation: slide1 20s 0s  infinite;
+}
+
+.voy_2 .cards {
+    position: absolute;
+    animation: slide2 20s  0s   infinite;
+}
+
+.voy_3 .cards{
+    position: absolute;
+    animation: slide3 20s  0s  infinite;
+}
+
+.promo img{
+    width: 100%;
+    height: 240px;
+
+}
+
+@keyframes slide1 {
+
+0%  
+
+{opacity: 0;
+
+ transform: translateX(100%);
+}
+
+2.25% { opacity: 1;
+     transform: translateX( 0%);  }
+
+33% {opacity: 1;
+    transform: translateX(0%);
+}
+
+35.25% {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+100% { opacity: 0;
+    transform: translateX(-100%);
+
+    }
+
+}
+@keyframes slide2 {
+
+0%  {  opacity: 0;
+    transform: translateX(100%);
+}
+
+35.25% {  
+    opacity: 0;
+    transform: translateX(100%);  }
+
+38% {
+    opacity: 1;
+    transform: translateX(0%);
+}    
+
+66% {opacity: 1;
+    transform: translateX(0%);
+
+}
+
+69% {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+100% { 
+    opacity: 0;
+    transform: translateX(-100%);
+
+    }
+
+}
+@keyframes slide3 {
+0%  {  opacity: 0;
+    transform: translateX(100%);
+}
+
+69% {  opacity: 0;
+    transform: translateX( 100%);  }
+
+70.25% {
+    opacity: 1;
+    transform: translateX(0%);
+}
+99%{
+    opacity: 1;
+    transform: translateX(0%);
+}
+100% {
+    opacity: 0;
+     transform: translateX(-100%);
+
+    }
+
+}
+.cards{
+  display: flex;
+  top: -35vw;
+  background-color: white;
+  width: 390px;
+  height: 350px;
+  border: 2px #cccccc6b solid;
+  padding: 0px;
+  margin-right: 3em;
+  box-shadow: #66666A 1px;
+  border-radius: 1em;
+  padding-bottom: 1em;
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  overflow: hidden;
+  z-index: 8;
+}
+figcaption{
+  font-family: 'pacifico', cursive;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 238px;
+  left: 0px;
+  max-height: 210px;
+  margin: auto;
+  margin-top: 1vh;
+
+  
+}
+.offre{
+  color: #ff4444;
+}
+
+.conta{
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+}
+
+
+
+
+
+/*-------------------------------------Footer---------------------------------*/
+.visa{
+  position: relative;
+  left: 60%;
+
+}
+.contact{
+  position: relative;
+  left: 30%;
+}
+.app{
+  position: relative;
+  
+}
+
+
+
+}
+
+
+
+
+
+
+
+
 /*----------------------------------Laptop----------------------------------*/
 
 /*----------------------------header---------------------------------*/
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 1101px) {
 
 header{
     display: flex;
@@ -90,7 +564,7 @@ width: 100%;
 
 /*--------------------------SECTION1-----------------------------------*/
 
-@media screen and (min-width: 601px){
+@media screen and (min-width: 1101px){
     .detail{
 
         text-transform: uppercase;
@@ -254,7 +728,7 @@ width: 100%;
 }
 
 /*------------------------SEction2-------------------------------*/
-@media screen and (min-width: 601px){
+@media screen and (min-width: 1101px){
 
   .part2{
  width: auto;
@@ -273,7 +747,7 @@ width: 100%;
 .promo{
     display: flex;
     left: 75vw;
-   top: 19vw;
+   top: 39vw;
     
 }
 .voy_1 .cards{
@@ -295,7 +769,7 @@ width: 100%;
 
 
 /*--------------------------FOOTER------------------*/
-@media screen and (min-width: 601px){
+@media screen and (min-width: 1101px){
 
 footer {
     display: flex;
