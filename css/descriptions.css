@@ -521,3 +521,182 @@ justify-self: center;
     margin-left: 10%;
   }
 }
+
+
+/*---------------------------FOOTER---------------------*/
+.info2{
+  font-family: 'Pacifico', cursive;
+  font-size: 22px;
+}
+.conta{
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+}
+
+
+
+
+
+footer {
+    background-color: #a0d5eb; 
+    margin-top: em;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.visa{
+    font-family: 'pacifico', cursive;
+    font-size: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 150px;
+    left: 8em;
+    top: 80%;
+}
+.visa img{
+  position: relative;
+  left: 16em;
+}
+.vis{
+  position: relative;
+  width: 130px;
+  left: 16em;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.app{
+    font-family: 'pacifico', cursive;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    box-sizing: border-box;
+    width: 250px;
+    
+}
+.app2{
+    font-family: 'pacifico', cursive;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 0px;
+    left: 10px;
+    
+}
+.suivre{
+  font-family: 'pacifico', cursive;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 305px) {
+
+.vis{
+  left: 12em;
+}
+.visa{
+  position: relative;
+  left: 25%;
+
+}
+
+.app{
+  position: relative;
+  
+}
+
+
+
+}
+
+@media screen and (min-width: 605px) and (max-width: 1100px) {
+  .vis{
+    left: 12em;
+  }
+  .visa{
+    position: relative;
+    left: 55%;
+  
+  }
+  .contact{
+    position: relative;
+    left: 30%;
+  }
+  .app{
+    position: relative;
+    
+  }
+  
+  
+  
+  }
+  @media screen and (min-width: 1101px){
+
+    footer {
+        display: flex;
+        position: relative;
+        height: 30vh;
+        top: 10vw;
+        
+    }
+    .vis{
+        font-size: 16px;
+        left: 45em;
+        top: -6em;
+    }
+    .visa img {
+        left: 65em;
+        top: -7em;
+        width: 250px;
+    }
+    .social{
+        position: absolute;
+        bottom: 0em;
+    }
+    .social img{
+    
+    width: 50px;
+    }
+    .contact{
+      position: absolute;
+      left: 40em;
+    
+    }
+    .app{
+      font-family: 'pacifico', cursive;
+      font-size: 14px;
+      
+     
+      top: 40px;
+      left: 10px;
+      
+      width: 250px;
+      
+    }
+    .app2{
+      font-family: 'pacifico', cursive;
+      font-size: 14px;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      top: 0px;
+      left: 10px;
+      
+    }
+    .app img{
+      height: 40px;
+      width: 40px;
+    }
+    
+    
+    
+    
+    }
+  
