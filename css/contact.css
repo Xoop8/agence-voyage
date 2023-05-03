@@ -1,8 +1,6 @@
   /*--------------------------contact-Mobile-------------------------*/
  body{
-    background-image: url(../images/composition-toy-airplanes-passport-hat.jpg);
-    background-size: 300%;
-    object-fit: fill;
+    background-color: #a0d5eb;
  }
   
 
@@ -13,19 +11,16 @@
   }
 
   h2{
+    position: relative;
     font-family: 'Pacifico', cursive;
     font-size: 32px;
     position: relative;
-    left: 25%;
+    left: 20%;
   }
 
-  .droite{
-    background-image: url(../images/illustration_formulaire.jpg);
-    width: 60%;
-    background-size: cover;
-    
-}
-   
+ 
+
+ 
 .box-form2 {
 display: flex;
 flex-direction: row;
@@ -52,7 +47,7 @@ margin-bottom: 5vh;
     
     
     }
-    
+   
     .fc{
         font-family: 'Pacifico', cursive;
     font-weight: normal;
@@ -139,6 +134,12 @@ margin-bottom: 5vh;
         transform: scale(1.1);
         
     }
+    .fa-solid {
+        position: relative;
+        left: 90%;
+        font-size: 22px;
+        
+    }
 
 
     /*----------------------------TABLETTE------------------------------------*/
@@ -148,9 +149,7 @@ margin-bottom: 5vh;
 
   @media screen and (min-width:601px) {
     body{
-        background-image: url(../images/composition-toy-airplanes-passport-hat.jpg);
-        background-size: 200%;
-        object-fit: fill;
+        background-color: #a0d5eb;
      }
 
 
@@ -164,7 +163,7 @@ margin-bottom: 5vh;
         font-family: 'Pacifico', cursive;
         font-size: 32px;
         position: relative;
-        left: 25%;
+        left: 40%;
       }
     
   

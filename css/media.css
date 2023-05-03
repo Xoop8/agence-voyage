@@ -15,7 +15,7 @@
 
 
 /*----------------------------Tablette-----------------------------*/
-@media screen and (min-width: 605px and max-width: 1100px) {
+@media screen and (min-width: 605px) and (max-width: 1100px) {
 .menuItem {
   display: block;
   margin: 4rem 7rem;
@@ -518,7 +518,7 @@ width: 100%;
 }    
 .menuItem {
     display: block;
-    margin: 5rem 2rem;
+    margin: 5.5rem 2rem;
     font-size: 2rem;
     color: white;
     text-decoration: none;
